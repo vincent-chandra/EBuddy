@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5C1C7B2D049E520033D70D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C1C7A2D049E520033D70D /* ImagePicker.swift */; };
+		BF5C1C7F2D049E870033D70D /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C1C7E2D049E870033D70D /* Ext.swift */; };
+		BF5C1C812D049EA70033D70D /* ViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5C1C802D049EA70033D70D /* ViewOffset.swift */; };
 		BF86D84A2D00467400C66DEE /* EBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86D8492D00467400C66DEE /* EBuddyApp.swift */; };
 		BF86D84C2D00467400C66DEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86D84B2D00467400C66DEE /* ContentView.swift */; };
 		BF86D84E2D00467700C66DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86D84D2D00467700C66DEE /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5C1C7A2D049E520033D70D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BF5C1C7E2D049E870033D70D /* Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		BF5C1C802D049EA70033D70D /* ViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOffset.swift; sourceTree = "<group>"; };
 		BF86D8462D00467400C66DEE /* EBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF86D8492D00467400C66DEE /* EBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBuddyApp.swift; sourceTree = "<group>"; };
 		BF86D84B2D00467400C66DEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +92,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5C1C762D049DEC0033D70D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF86D8492D00467400C66DEE /* EBuddyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BF5C1C772D049DF30033D70D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C1C782D049DFC0033D70D /* MainView */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BF5C1C782D049DFC0033D70D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				BF86D84B2D00467400C66DEE /* ContentView.swift */,
+				BF86D87E2D0068FC00C66DEE /* EBuddyModel.swift */,
+				BF86D8802D00722000C66DEE /* EBiddyViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		BF5C1C792D049E420033D70D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C1C7A2D049E520033D70D /* ImagePicker.swift */,
+				BF5C1C7E2D049E870033D70D /* Ext.swift */,
+				BF5C1C802D049EA70033D70D /* ViewOffset.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		BF86D83D2D00467400C66DEE = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +152,12 @@
 		BF86D8482D00467400C66DEE /* EBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				BF5C1C792D049E420033D70D /* Common */,
+				BF5C1C772D049DF30033D70D /* Module */,
+				BF5C1C762D049DEC0033D70D /* App */,
 				BF86D8822D0151FA00C66DEE /* Info.plist */,
-				BF86D8492D00467400C66DEE /* EBuddyApp.swift */,
-				BF86D84B2D00467400C66DEE /* ContentView.swift */,
 				BF86D84D2D00467700C66DEE /* Assets.xcassets */,
 				BF86D84F2D00467700C66DEE /* Preview Content */,
-				BF86D87E2D0068FC00C66DEE /* EBuddyModel.swift */,
-				BF86D8802D00722000C66DEE /* EBiddyViewModel.swift */,
 			);
 			path = EBuddy;
 			sourceTree = "<group>";
@@ -288,8 +329,11 @@
 			files = (
 				BF86D84C2D00467400C66DEE /* ContentView.swift in Sources */,
 				BF86D8812D00722000C66DEE /* EBiddyViewModel.swift in Sources */,
+				BF5C1C7B2D049E520033D70D /* ImagePicker.swift in Sources */,
 				BF86D87F2D0068FC00C66DEE /* EBuddyModel.swift in Sources */,
+				BF5C1C812D049EA70033D70D /* ViewOffset.swift in Sources */,
 				BF86D84A2D00467400C66DEE /* EBuddyApp.swift in Sources */,
+				BF5C1C7F2D049E870033D70D /* Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
