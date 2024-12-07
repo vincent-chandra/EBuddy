@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Call-of-Duty-Logo-2012-2013.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Call-of-Duty-Logo-2012-2013 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Call-of-Duty-Logo-2012-2013 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

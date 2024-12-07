@@ -19,6 +19,8 @@
 		BF86D8792D0053A300C66DEE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BF86D8782D0053A300C66DEE /* FirebaseAuth */; };
 		BF86D87B2D0053A300C66DEE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BF86D87A2D0053A300C66DEE /* FirebaseFirestore */; };
 		BF86D87D2D0053A300C66DEE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BF86D87C2D0053A300C66DEE /* FirebaseStorage */; };
+		BF86D87F2D0068FC00C66DEE /* EBuddyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86D87E2D0068FC00C66DEE /* EBuddyModel.swift */; };
+		BF86D8812D00722000C66DEE /* EBiddyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86D8802D00722000C66DEE /* EBiddyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		BF86D8642D00467700C66DEE /* EBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBuddyUITests.swift; sourceTree = "<group>"; };
 		BF86D8662D00467700C66DEE /* EBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF86D8732D00527600C66DEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF86D87E2D0068FC00C66DEE /* EBuddyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBuddyModel.swift; sourceTree = "<group>"; };
+		BF86D8802D00722000C66DEE /* EBiddyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBiddyViewModel.swift; sourceTree = "<group>"; };
+		BF86D8822D0151FA00C66DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +110,13 @@
 		BF86D8482D00467400C66DEE /* EBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				BF86D8822D0151FA00C66DEE /* Info.plist */,
 				BF86D8492D00467400C66DEE /* EBuddyApp.swift */,
 				BF86D84B2D00467400C66DEE /* ContentView.swift */,
 				BF86D84D2D00467700C66DEE /* Assets.xcassets */,
 				BF86D84F2D00467700C66DEE /* Preview Content */,
+				BF86D87E2D0068FC00C66DEE /* EBuddyModel.swift */,
+				BF86D8802D00722000C66DEE /* EBiddyViewModel.swift */,
 			);
 			path = EBuddy;
 			sourceTree = "<group>";
@@ -279,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF86D84C2D00467400C66DEE /* ContentView.swift in Sources */,
+				BF86D8812D00722000C66DEE /* EBiddyViewModel.swift in Sources */,
+				BF86D87F2D0068FC00C66DEE /* EBuddyModel.swift in Sources */,
 				BF86D84A2D00467400C66DEE /* EBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +456,7 @@
 				DEVELOPMENT_TEAM = FYAQ2W36J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +486,7 @@
 				DEVELOPMENT_TEAM = FYAQ2W36J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
